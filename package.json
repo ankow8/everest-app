@@ -1,4 +1,11 @@
 {
   "name": "everest-app",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "dependencies": {
+    "electron": "^5.0.6"
+  }
 }
